@@ -1,0 +1,9 @@
+PrimaryKey
+  Keys:
+    country
+    ended_at
+  Condition: and((country in ['DE', 'DE']), and((ended_at in (-Inf, 1792886399]), (ended_at in [1792800000, +Inf))))
+  Parts: 1/1
+  Granules: 8/1221
+  Search Algorithm: binary search
+  Ranges: 1
